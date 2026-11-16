@@ -1,3 +1,7 @@
+<div align="center">
+
+# konami-gb-lzss
+
 **LZSS decompressor and compressor for the *Konami GB Collection* series (Game Boy)**
 
 ![Format](https://img.shields.io/badge/format-LZSS-blue)
@@ -7,6 +11,8 @@
 ![Streams](https://img.shields.io/badge/streams%20cataloged-221-informational)
 
 </div>
+
+🇫🇷 *Version française : [README.fr.md](README.fr.md)*
 
 The **Konami GB Collection** compilations store their tiles, background maps and some level data in a **shared compression format**: an escape-byte LZSS with a 4096-byte window and absolute-position references.
 
@@ -313,6 +319,7 @@ Full catalogs: [`konami_vol2_streams_catalog.csv`](konami_vol2_streams_catalog.c
 ```
 .
 ├── README.md                           this file
+├── README.fr.md                        French version
 ├── decompress_konami.py                decompressor (no dependencies)
 ├── compress_konami.py                  optimal compressor (numpy)
 ├── find_streams.py                     stream finder for a ROM (no dependencies)
